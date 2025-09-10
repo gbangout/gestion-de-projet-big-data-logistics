@@ -29,7 +29,7 @@ Sources de données : transactions, IoT, historiques de maintenance, feedback cl
 
 * Analyse de cas & choix:
 
-* Justification : données massives et variées, besoins en temps réel, prise de décision améliorée
+Justification : données massives et variées, besoins en temps réel, prise de décision améliorée
 
 * Cahier des charges:
 
