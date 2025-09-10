@@ -1,51 +1,47 @@
-# gestion-de-projet-big-data-logistics
+# Projet Big Data – SmartLogistics (LogiTech)
 
-🚛 Projet Big Data – SmartLogistics (LogiTech)
-📌 Contexte
+## Contexte 📌
 
-LogiTech souhaite moderniser et optimiser sa chaîne logistique en exploitant le Big Data pour améliorer la planification des livraisons, la maintenance de la flotte et la satisfaction client.
+LogiTech souhaite moderniser et optimiser sa chaîne logistique en exploitant le Big Data afin d’améliorer :
 
-🎯 Objectifs
+* la planification des livraisons,
 
-Optimiser la gestion des livraisons en temps réel.
+* la maintenance de la flotte,
 
-Anticiper les pannes grâce aux données IoT.
-
-Analyser les retours clients pour améliorer la satisfaction.
-
-Réduire les coûts logistiques et les retards.
-
-🛠️ Méthodologie (Gestion de projet Big Data)
-
-Définition & cadrage : identification des 3V (Volume, Vélocité, Variété) et des sources de données (transactions, IoT, feedbacks, maintenance).
-
-Analyse de cas & choix : justification de l’approche Big Data (temps réel, diversité des données, meilleure prise de décision).
-
-Cahier des charges : suivi temps réel, alertes automatiques, dashboards, architecture scalable, sécurité RGPD, intégration avec ERP/CRM.
-
-Conception de l’architecture technique :
-
-Collecte : Kafka pour ingestion temps réel.
-
-Stockage : Hadoop HDFS pour données massives.
-
-Traitement : Spark pour analyse temps réel.
-
-Bases NoSQL : MongoDB pour données hétérogènes.
-
-Visualisation : Tableau / Kibana pour dashboards interactifs.
+* la satisfaction client.
 
 
-🏗️ Schéma d’architecture   :
+## Objectifs 🎯
 
-Sources (IoT, transactions, feedback)
-        ↓
-    Kafka (ingestion)
-        ↓
-  Hadoop HDFS (stockage distribué)
-        ↓
-   Spark (traitement temps réel)
-        ↓
- NoSQL DB (MongoDB)
-        ↓
- Dashboard (Tableau / Kibana)
+* Optimiser la gestion des livraisons en temps réel 🚚 
+
+* Anticiper les pannes grâce aux données IoT 🔧 
+
+* la satisfaction client via l’analyse des retours 😀 
+
+* Réduire les coûts logistiques et les retards 💰 
+
+## Méthodologie (Gestion de projet Big Data) 🛠️ 
+* Définition & cadrage
+
+Identification des 3V : Volume, Vélocité, Variété
+Sources de données : transactions, IoT, historiques de maintenance, feedback clients
+
+* Analyse de cas & choix:
+
+* Justification : données massives et variées, besoins en temps réel, prise de décision améliorée
+
+* Cahier des charges:
+
+Exigences fonctionnelles : suivi temps réel, alertes automatiques, dashboards interactifs
+Exigences techniques : gestion de données massives, architecture scalable, sécurité (RGPD)
+Contraintes : intégration avec ERP/CRM existants
+
+* Conception de l’architecture technique
+
+Collecte : Kafka → ingestion temps réel
+Stockage : Hadoop HDFS → données massives
+Traitement : Spark → analyse temps réel
+Bases NoSQL : MongoDB / Cassandra → données hétérogènes
+Visualisation : Tableau / Kibana → dashboards
+
