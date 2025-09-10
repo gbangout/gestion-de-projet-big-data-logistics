@@ -2,7 +2,7 @@
 
 ## Contexte 📌
 
-LogiTech souhaite moderniser et optimiser sa chaîne logistique en exploitant le Big Data afin d’améliorer :
+LogiTech souhaite moderniser et optimiser sa chaîne logistique en exploitant le Big Data afin d’améliorer (methode agile) :
 
 * la planification des livraisons,
 
